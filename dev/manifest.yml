@@ -3,5 +3,5 @@ applications:
   memory: 256MB
   instances: 1
   host: user-service-dev
-  routes: user-service-dev
+  route: user-service-dev
   path: user-service/dev/user-service-0.0.1-SNAPSHOT.jar
