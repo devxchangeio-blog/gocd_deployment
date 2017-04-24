@@ -3,7 +3,7 @@ simple_deploy() {
   local appname="$1";
   local domain="$2";
 
-  local push_cmd="./cf push -f manifest.yml";
+  local push_cmd="./cf push -f dev/manifest.yml";
 
   if [ -n "$domain" ]; then
     push_cmd="$push_cmd -d $domain";
