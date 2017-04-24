@@ -1,0 +1,7 @@
+applications:
+- name: user-service
+  memory: 256MB
+  instances: 1
+  host: user-service-stg
+  routes: user-service-stg
+  path: user-service/dev/user-service-0.0.1-SNAPSHOT.jar
