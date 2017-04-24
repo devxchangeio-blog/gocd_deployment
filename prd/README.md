@@ -1,1 +1,0 @@
-# gocd_deployment_manifest
